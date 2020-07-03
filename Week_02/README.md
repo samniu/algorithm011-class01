@@ -11,3 +11,16 @@
 	若母节点的值恒小于等于子节点的值，此堆称为最小堆（min heap）；反之，若母节点的值恒大于等于子节点的值，此堆称为最大堆（max heap）。
 
 	在堆中最顶端的那一个节点，称作根节点（root node），根节点本身没有母节点（parent node）。
+	
+#### Swift
+Swift `Dictionary`
+Kotlin `HashMap` 
+
+Swift 语言提供数组（Array）、集合（Set）和字典（Dictionary）三种基本的集合类型用来存储集合数据。
+数组是有序数据的集。集合是无序无重复数据的集。字典是无序的键值对的集。
+
+![IMAGE](https://docs.swift.org/swift-book/_images/CollectionTypes_intro_2x.png)
+
+集合类型的哈希值
+一个类型为了存储在集合中，该类型必须是可哈希化的——也就是说，该类型必须提供一个方法来计算它的哈希值。一个哈希值是 Int 类型的，相等的对象哈希值必须相同，比如 a == b,因此必须 a.hashValue == b.hashValue。
+
